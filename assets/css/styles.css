@@ -662,5 +662,56 @@ img {
   color: #4070f4;
   transform: translateY(-2px);
 }
+/* ===== Compact Academic Hero ===== */
+
+.home__eyebrow{
+  margin-bottom: .25rem;
+  font-weight: 600;
+}
+
+.home__title{
+  margin-bottom: .35rem;      /* ⬅ BIG FIX */
+  line-height: 1.1;
+}
+
+.home__affiliation p{
+  margin: 0;                  /* ⬅ REMOVE DEFAULT GAPS */
+  line-height: 1.4;
+  opacity: .9;
+}
+
+/* Link row (like reference page) */
+.home__links{
+  margin-top: .9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+}
+
+.home__link{
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .45rem .75rem;
+  font-size: .9rem;
+  font-weight: 600;
+  border-radius: .6rem;
+  border: 1px solid rgba(255,255,255,.25);
+  background: rgba(14,36,49,.04);
+  color: #0e2431;
+  transition: all .2s ease;
+}
+
+.home__link:hover{
+  background: rgba(64,112,244,.12);
+  color: #4070f4;
+  transform: translateY(-1px);
+}
+
+/* CV emphasis */
+.home__link--cv{
+  border-color: rgba(64,112,244,.6);
+}
+
 
 
