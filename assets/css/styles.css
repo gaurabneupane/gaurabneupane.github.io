@@ -684,3 +684,31 @@ img {
   margin-top: 0.2rem !important;
   padding-bottom: 0 !important;
 }
+/* ===== ABOUT text formatting ===== */
+.about__text{
+  text-align: justify;          /* makes right edge aligned */
+  text-justify: inter-word;
+  line-height: 1.75;            /* more readable */
+  margin-bottom: 1.1rem;        /* space between paragraphs */
+}
+
+/* Optional: remove extra margin after the last paragraph */
+.about__text:last-child{
+  margin-bottom: 0;
+}
+/* ===== ABOUT image size ===== */
+.about__img img{
+  width: 320px;          /* default for small/medium */
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  object-fit: cover;
+}
+
+/* Bigger on desktop */
+@media screen and (min-width: 768px){
+  .about__img img{
+    width: 380px;
+  }
+}
+
