@@ -637,4 +637,30 @@ img {
     border-width: 6px;
   }
 }
+/* Reduce space below name */
+.home__title{
+  margin-bottom: 0.5rem;   /* default is too large */
+}
+
+/* Tighten affiliation block */
+.home__affiliation{
+  margin-top: 0;
+  line-height: 1.5;
+}
+.home__social{
+  margin-top: 1.25rem;
+}
+
+.home__social-icon{
+  font-size: 1.8rem;       /* ⬅ increase size */
+  margin-right: 1rem;
+  color: #0e2431;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.home__social-icon:hover{
+  color: #4070f4;
+  transform: translateY(-2px);
+}
+
 
