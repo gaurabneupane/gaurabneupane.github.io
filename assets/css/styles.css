@@ -736,6 +736,31 @@ img {
   }
 }
 
+.home {
+  position: relative;
+  row-gap: 5rem;
+  padding: 4rem 0 5rem;
+}
+
+@media screen and (min-width: 576px){
+  .home{
+    padding: 4rem 0 2rem;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .home{
+    padding: 8rem 0 2rem;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .home{
+    padding: 10rem 0 2rem;
+  }
+}
+
+
 
 
 
