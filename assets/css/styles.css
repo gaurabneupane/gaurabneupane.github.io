@@ -735,5 +735,14 @@ img {
     height: 210px;
   }
 }
+/* ===== FULL-SCREEN HOME ===== */
+.home {
+  min-height: 100vh;              /* ⬅ key line */
+  display: grid;
+  align-items: center;
+  padding-top: calc(var(--header-height) + 2rem);
+  padding-bottom: 2rem;
+}
+
 
 
